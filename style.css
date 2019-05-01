@@ -1,0 +1,110 @@
+
+body {
+  margin-top: 20px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 18;
+  background-color: #f5f5f5;
+  line-height: 1.2;
+  color: #222831;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Concert One', cursive;
+  font-size: 36px;
+  color:  #3c415e;
+}
+
+h2 {
+  font-family: 'Concert One', cursive;
+  color: #3c415e;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #913535;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+p {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+}
+
+.btn-brown {
+  background-color: #913535;
+  color: white;
+  border: 1px solid #913535;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.top-card {
+  background-color: white;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  border: 1px solid white;
+  box-shadow: 2px 2px 6px #f0ebf0;
+}
+
+.top-card p {
+  margin-top: 40px;
+}
+
+.mid-card {
+  background-color: white;
+  padding-bottom: 30px;
+  border: 1px solid white;
+  box-shadow: 2px 2px 6px #f0ebf0;
+  margin-top: 20px;
+}
+
+.bottom-card {
+  text-align: center;
+  margin-right: 40px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px grey;
+  border: 1px solid lightgrey;
+  width: 160px;
+  height: 160px;
+}
+
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+
+
+
+
